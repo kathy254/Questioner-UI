@@ -38,7 +38,7 @@ Testing
     ```
 - cd into this folder:
     ```
-    Questionair-UI
+    Questioner-UI
     ```
 - Open the index.html file
 - Go through the different UI links to view the various pages and features
@@ -49,7 +49,7 @@ Authors
 
 License
 ----------
-This project is licensed under the MIT license. See [License](https://github.com/kathy254/Questioner-UI/blob/master/LICENSE) for details.
+This project is licensed under the MIT license. See [LICENSE](https://github.com/kathy254/Questioner-UI/blob/master/LICENSE) for details.
 
 Contribution
 ---------------
