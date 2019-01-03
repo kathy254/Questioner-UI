@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Signup to Questioner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
+</head>
+
+<body>
+
+    <div class="slideshow">
+
+        <div class="mySlides fade">
+            <div class="numberText">1/4</div>
+            <div class="text">
+                <p>Questioner provides a platform where users<br> crowd-source questions for a meetup.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">2/4</div>
+            <div class="text">
+                <p>Any member of our community can <br> post a question to a meetup.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">3/4</div>
+            <div class="text">
+            <p>Other users can vote on asked questions and they bubble<br> to the top
+                    or bottom of the log.</p>
+            </div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numberText">4/4</div>
+            <div class="text">
+                <p>Users can comment on questions and view top questions feed for <br> upcoming meetups they are scheduled to attend.</p>
+            </div>
+        </div>
+
+        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+
+    <script src="../static/js/main.js"></script>
+
+    <div class="signup_form">
+        <h2 class="register">Join us today</h2>
+
+        <div class="input">
+                <img src="../static/images/envelope.png" class="icon">
+                <input class="input-field" type="text" placeholder="Email" name="email">
+        </div>
+
+        <div class="input">
+          <img src="../static/images/user-shape.png" class="icon">
+          <input class="input-field" type="text" placeholder="Username" name="usrnm">
+        </div>
+      
+        <div class="input">
+          <img src="../static/images/password.png" class="icon">
+          <input class="input-field" type="password" placeholder="Password" name="psw">
+        </div>
+      
+        <a href="login.html"><button type="submit" class="button">Register</button></a>
+        <p class="register"><em>Already have an account? </em><a href="login.html">Sign In</a></p>
+    </div> 
+ 
+    
+</body>
+</html>
