@@ -33,9 +33,13 @@ Pre-requisites
 Testing
 ----------------
 - Clone this repository to your computer
-    ```git clone https://github.com/kathy254/Questioner-UI.git```
+    ```
+    git clone https://github.com/kathy254/Questioner-UI.git
+    ```
 - cd into this folder:
-    ```Questionair-UI```
+    ```
+    Questionair-UI
+    ```
 - Open the index.html file
 - Go through the different UI links to view the various pages and features
 
