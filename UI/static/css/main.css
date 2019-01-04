@@ -10,7 +10,7 @@ body {
 
 /* Slideshow container */
 .slideshow {
-    background-image:linear-gradient(to bottom right, #000080, #3366CC, #003366);
+    background-image:linear-gradient(to bottom right, #000000, #C0C0C0, #000080);
     width: 100%;
     position: relative;
     margin: auto;
@@ -52,7 +52,7 @@ body {
 
 /* Caption text */
 .text {
-    color: #C0C0C0;
+    color: #000000;
     font-size: 30px;
     font-weight: bolder;
     font-style: italic;
@@ -92,9 +92,9 @@ body {
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 1s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 @-webkit-keyframes fade {
@@ -107,7 +107,7 @@ body {
     to {opacity: 1}
 }
 
-.signup_form {
+.my-form {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 10px;
@@ -156,7 +156,7 @@ body {
     opacity: 0.9;
   }
 
-.register {
+.form-text {
     text-align: center;
 }
 
@@ -165,3 +165,29 @@ body {
     opacity: 1;
   }
 
+.login {
+    width: 450px;
+    margin-top: 100px;
+}
+
+.forgot {
+    float: right;
+}
+
+a:link {
+    color: #000080;
+}
+
+.footer {
+    background-image:linear-gradient(to bottom right, #000000, #C0C0C0, #000080);
+    overflow: hidden;
+    position: absolute;
+    font-size: small;
+    text-align: center;
+    position: fixed;
+    padding: 5px;
+    line-height: 1.3em;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
