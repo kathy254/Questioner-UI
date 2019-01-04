@@ -10,7 +10,7 @@ body {
 
 /* Slideshow container */
 .slideshow {
-    background-image:linear-gradient(to bottom right, #000000, #C0C0C0, #000080);
+    background-image:linear-gradient(to bottom right, #000080, #C0C0C0, #000080);
     width: 100%;
     position: relative;
     margin: auto;
@@ -179,10 +179,11 @@ a:link {
 }
 
 .footer {
-    background-image:linear-gradient(to bottom right, #000000, #C0C0C0, #000080);
+    background-color:  #000000;
     overflow: hidden;
     position: absolute;
     font-size: small;
+    color: #C0C0C0;
     text-align: center;
     position: fixed;
     padding: 5px;
