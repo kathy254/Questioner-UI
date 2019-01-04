@@ -10,7 +10,7 @@ body {
 
 /* Slideshow container */
 .slideshow {
-    background-image:linear-gradient(to bottom right, #000080, #C0C0C0, #000080);
+    background-image:linear-gradient(to bottom right, #000080, #3366CC, #003366);
     width: 100%;
     position: relative;
     margin: auto;
@@ -52,7 +52,7 @@ body {
 
 /* Caption text */
 .text {
-    color: #000000;
+    color: #C0C0C0;
     font-size: 30px;
     font-weight: bolder;
     font-style: italic;
@@ -98,12 +98,12 @@ body {
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .4}
+    from {opacity: .2}
     to {opacity: 1}
 }
 
 @keyframes fade {
-    from {opacity: .4}
+    from {opacity: .2}
     to {opacity: 1}
 }
 
