@@ -1,7 +1,15 @@
 * {box-sizing:border-box;}
 
+/* Main styles */
+
 html {
     background-color: #C0C0C0;
+}
+
+.inner-pages {
+    background-color: #f6f6f6;
+    
+
 }
 
 body {
@@ -9,6 +17,7 @@ body {
 }
 
 /* Slideshow container */
+/* Signup page */
 .slideshow {
     background-image:linear-gradient(to bottom right, #000080, #3366CC, #003366);
     width: 100%;
@@ -98,14 +107,16 @@ body {
 }
 
 @-webkit-keyframes fade {
-    from {opacity: .2}
+   from {opacity: 0}
     to {opacity: 1}
 }
 
 @keyframes fade {
-    from {opacity: .2}
+    from {opacity: 0}
     to {opacity: 1}
 }
+
+/* Signup and login form */
 
 .my-form {
     padding-left: 20px;
@@ -122,7 +133,6 @@ body {
 
 }
 
-
 .input {
     display: flex;
     width: 100%;
@@ -134,19 +144,19 @@ body {
     color: white;
     width: 50px;
     text-align: center;
-  }
+}
 
-  .input:focus {
+.input:focus {
     border: 2px solid dodgerblue;
-  }
+}
 
-  .input-field {
+.input-field {
     width: 100%;
     padding: 10px;
     outline: none;
-  }
+}
 
-  .button {
+.button {
     background-color: #000000;
     color: white;
     padding: 15px 20px;
@@ -154,7 +164,7 @@ body {
     cursor: pointer;
     width: 100%;
     opacity: 0.9;
-  }
+}
 
 .form-text {
     text-align: center;
@@ -180,8 +190,8 @@ a:link {
 
 .footer {
     background-color:  #000000;
+    width: 100%;
     overflow: hidden;
-    position: absolute;
     font-size: small;
     color: #C0C0C0;
     text-align: center;
@@ -192,3 +202,259 @@ a:link {
     left: 0;
     right: 0;
 }
+
+
+/* Dashboard */
+
+
+.webtitle {
+    margin: 0;
+    font-size: 25px;
+    font-family: fantasy;
+    color: #000080;
+}
+
+
+.slogan {
+    float: right;
+    font-size: 25px;
+    margin-right: 30px;
+    font-style: italic;
+    color: #000080;
+}
+
+.navbar{
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #000000;
+    position: absolute;
+    top: 60px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+
+.navlink {
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.navbar a{
+    margin-right: 0;
+    display: inline;
+    padding: 30px 50px;
+    text-decoration: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #C0C0C0;
+    color: #000000;
+}
+
+a.current {
+    background-color: #000080;
+    color: #FFFFFF;
+}
+
+.dropbtn {
+    background-color: #000000;
+    border: none;
+    font-family: inherit;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+
+
+/* .dropbtn:hover, .dropbtn:focus {
+    background-color: #C0C0C0;
+} */
+
+
+.dropdown {
+    display: none;
+    overflow: hidden;
+	margin-right: 30px;
+    float: right;
+    display: flex;
+    justify-content: right;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+.dropdown-content a {
+    color: #FFFFFF;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown-content a:hover {background-color: #000080;}
+
+
+.show {display:block;}
+
+.tabs {
+    overflow: hidden;
+    border: 1px solid #C0C0C0;
+    background-color: #c0c0c0;
+    width: 680px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tablink {
+    background-color: inherit;
+    width: 33.3%;
+    margin-right: 0px;
+    color: #000000;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 20px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+
+.tablink:hover {
+    background-color: #ddd;
+  }
+
+.tablink.active {
+    background-color: #000080;
+    color: #FFFFFF;
+  }
+
+.tabcontent {
+    overflow: hidden;
+    width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    overflow: scroll;
+    padding-bottom: 20px;
+  }
+
+.card {
+    width: 673px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+    padding: 0px 0px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px;
+    overflow: hidden;
+    display: flex;
+}
+
+
+.counter .up {
+    border-radius: 10rem 10rem 0 0;
+}
+
+.counter .down {
+    border-radius: 0 0 10rem 10rem;
+}
+
+.counter .count {
+    border-radius: 50%;
+
+}
+
+.vote .counter {
+    flex: 0 0 20%;
+    overflow: hidden;
+    display: inline;
+
+}
+
+.card-content {
+    padding-left: 10px;
+    flex: 1;
+    float: right;
+    top: 10px;
+    overflow: hidden;
+
+}
+
+.vote {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    margin: 1rem;
+  }
+
+.increment {
+    flex: 1 0 0;
+    text-align: center;
+    opacity: .5;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.increment.up {
+    background: #000080;
+    height: 50%;
+    margin-bottom: 0.25rem;
+}
+
+.increment.down {
+    background: #000000;
+    height: 50%;
+}
+
+.increment:hover {
+    opacity: 1;
+}
+  
+.count {
+    position: absolute;
+    top: 0;
+    border-radius: 0.1rem;
+    margin: 2.5rem;
+    background: #FFFFFF;
+    width: 5rem;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 5rem;
+    text-align: center;
+    box-shadow: 0 0 0 0.5rem #FFFFFF;
+    pointer-events: none;
+}
+
+.count.upvoted {
+    color: #000080;
+}
+
+.count.downvoted {
+    color: #000000;
+}
+
+
+
+
