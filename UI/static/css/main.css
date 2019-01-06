@@ -161,6 +161,7 @@ body {
     background-color: #000000;
     color: white;
     padding: 15px 20px;
+    margin-bottom: 10px;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -182,8 +183,11 @@ body {
 }
 
 .forgot {
-    padding-top: 10px;
     float: right;
+}
+
+.remember{
+    padding-top: 10px;
 }
 
 a:link {
