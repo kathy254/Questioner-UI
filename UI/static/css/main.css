@@ -225,6 +225,7 @@ a:link {
 
 .navbar{
     text-align: center;
+    margin: 0 auto;
     overflow: hidden;
     background-color: #000000;
     position: absolute;
@@ -233,6 +234,7 @@ a:link {
     left: 0;
     right: 0;
     height: 50px;
+    z-index: 1000;
 }
 
 
@@ -266,12 +268,13 @@ a.current {
 .tabs {
     overflow: hidden;
     border: 1px solid #C0C0C0;
-    background-color: #c0c0c0;
+    background-color: #C0C0C0;
     width: 680px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .tablink {
     background-color: inherit;
@@ -287,14 +290,15 @@ a.current {
     font-size: 17px;
   }
 
+.link2 {
+    width: 50%;
+}
+
+
 .tablink:hover {
     background-color: #ddd;
   }
 
-.tablink.active {
-    background-color: #000080;
-    color: #FFFFFF;
-  }
 
 .tabcontent {
     overflow: hidden;
@@ -305,7 +309,7 @@ a.current {
     padding: 6px 12px;
     border-top: none;
     overflow: scroll;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
   }
 
 .card {
@@ -347,6 +351,8 @@ a.current {
     float: right;
     top: 10px;
     overflow: hidden;
+    color: #000000;
+    opacity: 0.9;
 
 }
 
@@ -454,3 +460,108 @@ a.current {
 .container a {
     color: #FFFFFF;
 }
+
+/* meetups questions page */
+
+.page-image img {
+    position: relative;
+    margin-top: 43px;
+    left: 0;
+    right: 0;
+
+}
+
+.page-image {
+    position: relative;
+    z-index: 1;
+
+    
+}
+
+.text-block {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    bottom: 5px;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    font-size: 25px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .short-description {
+      text-align: center;
+      line-height: 1.5em;
+  }
+
+.text-input {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border-color: #FFFFFF;
+    width: 600px;
+    height: 35px;
+    padding-left: 10px;
+    z-index: 1000;
+}
+
+.submit {
+    background-color: #000080;
+    border-color: #000080;
+    color: #FFFFFF;
+    margin: 5px;
+    border-radius: 10px;
+    height: 35px;
+    font-weight: bold;
+}
+
+.no-deco {
+    text-decoration: none;
+}
+
+.ask {
+    text-align: center;
+}
+
+.details {
+    top: 0;
+    position: sticky;
+    color: #000080;
+    opacity: 0.9;
+    float: left;
+    clear: both;
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 270px;
+    border: thin outset #C0C0C0C0;
+    line-height: 2em;
+    padding: 10px 10px;
+}
+
+hr {
+    border: 1px solid #C0C0C0;
+}
+
+.details button {
+    background-color: #000080;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    margin-left: 7px;
+    padding: 5px 8px;
+    border-radius: 10px;
+}
+
+.post-comment {
+    background-color: #000080;
+    opacity: 0.9;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+

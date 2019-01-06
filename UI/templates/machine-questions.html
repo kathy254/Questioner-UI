@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="inner-pages">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<title>Machine Learning with Python</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="HandheldFriendly" content="True">
+<link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
+</head>
+
+<body>
+
+<div class="header">
+    <p><span class="webtitle"> <img style="vertical-align:middle" src="../static/images/logo2.png" width="35px" height="35px"> Questioner </span> <span class="slogan">Ask, Discuss, Learn and Grow</span></p>
+</div>
+
+<div class="navbar">
+    <ul><div class="navlink">
+        <li><a href="dashboard.html">Dashboard</a></li>
+        <li><a href="meetups.html">Meetups</a></li>
+        <li><a href="questions.html">Questions</a></li>
+        <li><a href="#">Notifications</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="#">Catherine</a></li>
+    </div>
+    </ul>
+</div>
+
+<div class="page-image">
+    <img src="../static/images/machine-background.jpg" width="100%" height="300px">
+    <div class="text-block">
+        <p class="short-description"><b>Machine learning is an application of artificial intelligence (AI) that
+             provides systems the ability to automatically learn 
+            and improve from experience without being explicitly programmed.
+                Attend this meetup to learn about machine learning. Post your questions on the topic for discussion 
+        during the meetup. </b></p>
+        <div class="ask">
+        <input type="text" class="text-input" name="question" placeholder="Ask a question">
+        <a href="#" class="no-deco"><input type="submit" class="submit" value="Ask question"></a>
+        </div>
+    </div>
+
+</div>
+
+<div class="details"><b>Meetup details</b><br><hr>
+    Date: 25th January, 2019<br>
+    Venue: Andela<br>
+    Facilitator: Mr. Omollo<br>
+    Attendees: 37 people<br><hr>
+    Confirm attendance <button type="submit">Yes</button><button type="submit">No</button>
+</div>
+
+<div class="tabs">
+        <button class="tablink link2" onclick="openTab('Popular')" id="defaultOpen">Popular Questions</button>
+        <button class="tablink link2" onclick="openTab('recent-questions')">Recent Questions</button>
+    </div>
+
+    <div id="Popular" class="tabcontent">
+        <div class="card">
+            
+            <div class="vote counter">
+                <div class="increment up"></div>
+                <div class="increment down"></div>
+                <div class="count">1700 votes</div>
+            </div>
+            
+            <div class="card-content">
+                <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                    <p><b>Author: </b>John Doe<br></p>
+                    <p><b>Date created: </b>20th December, 2018<br></p>
+                    <p><em>90 people are talking about this</em></p>
+                    <a href="post-comment.html"><button type="submit" class="post-comment">Join the Conversation</button></a>
+            </div>
+        </div>
+
+    <div class="card">
+        <div class="vote counter">
+            <div class="increment up"></div>
+            <div class="increment down"></div>
+            <div class="count">1505 votes</div>
+        </div>
+        
+        <div class="card-content">
+            <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                <p><b>Author: </b>Mr. Anonymous<br></p>
+                <p><b>Date created: </b>30th December, 2018<br></p>
+                <p><em>70 people are talking about this</em></p>
+                <a href="post-comment.html"><button type="submit" class="post-comment">Join the Conversation</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="vote counter">
+            <div class="increment up"></div>
+            <div class="increment down"></div>
+            <div class="count">1234 votes</div>
+        </div>
+        
+        <div class="card-content">
+                <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                    <p><b>Author: </b>Technician<br></p>
+                    <p><b>Date created: </b>1st January, 2019<br></p>
+                    <p><em>50 people are talking about this</em></p>
+                    <a href="post-comment.html"><button type="submit" class="post-comment">Join the Conversation</button></a>
+        </div>
+    </div>
+
+    <div class="card">
+
+        <div class="vote counter">
+            <div class="increment up"></div>
+            <div class="increment down"></div>
+            <div class="count">1004 votes</div>
+        </div>
+        
+        <div class="card-content">
+            <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                <p><b>Author: </b>Mr. Shirandula<br></p>
+                <p><b>Date created: </b>13th December, 2018<br></p>
+                <p><em>80 people are talking about this</em></p>
+                <a href="post-comment.html"><button type="submit" class="post-comment">Join the Conversation</button></a>
+        </div>
+    </div>
+
+    <script src="../static/js/tabs.js"></script>
+
+</div>
+
+<script src="../static/js/main.js"></script>
+
+<div id="recent-questions" class="tabcontent">
+    <div class="card">
+    
+        <div class="vote counter">
+            <div class="increment up"></div>
+            <div class="increment down"></div>
+            <div class="count">5 votes</div>
+        </div>
+        
+        <div class="card-content">
+            <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                <p><b>Author: </b>Jane Doe<br></p>
+                <p><b>Date created: </b>5th January, 2019<br></p>
+                <p><em>0 people are talking about this</em></p>
+                <a href="post-comment.html"><button type="submit" class="post-comment">Start the Conversation</button></a>
+        </div>
+    </div>
+
+        <div class="card">
+            <div class="vote counter">
+                <div class="increment up"></div>
+                <div class="increment down"></div>
+                <div class="count">2 votes</div>
+            </div>
+
+            <div class="card-content">
+                <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                <p><b>Author: </b>Ms. Maina<br></p>
+                <p><b>Date created: </b>4th January, 2019<br></p>
+                <p><em>4 people are talking about this</em></p>
+                <a href="post-comment.html"><button type="submit" class="post-comment">Join the Conversation</button></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="vote counter">
+                <div class="increment up"></div>
+                <div class="increment down"></div>
+                <div class="count">1 votes</div>
+            </div>
+
+            <div class="card-content">
+                <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                    <p><b>Author: </b>Mr. Masanduku<br></p>
+                    <p><b>Date created: </b>4th January, 2019<br></p>
+                    <p><em>0 people are talking about this</em></p>
+                    <a href="post-comment.html"><button type="submit" class="post-comment">Start the Conversation</button></a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="vote counter">
+                <div class="increment up"></div>
+                <div class="increment down"></div>
+                <div class="count">0 votes</div>
+            </div>
+
+            <div class="card-content">
+                <p><b>Question:</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua<br></p>
+                <p><b>Author: </b>Michelle A.<br></p>
+                <p><b>Date created: </b>3rd, January, 2019<br></p>
+                <p><em>8 people are talking about this</em></p>
+                <a href="post-comment.html"><button type="submit" class="post-comment">Join the Conversation</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        &copy; 2019, Questioner <br>
+        All rights reserved.
+    </div>
+</body>
+</html>
+
