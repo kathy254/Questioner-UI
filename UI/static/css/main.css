@@ -121,11 +121,12 @@ body {
 .my-form {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    height: 350px;
     background-color: #FFFFFF;
     border-style: ridge;
     border-bottom-width: thin;
@@ -181,6 +182,7 @@ body {
 }
 
 .forgot {
+    padding-top: 10px;
     float: right;
 }
 
