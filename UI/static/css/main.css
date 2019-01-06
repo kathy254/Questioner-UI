@@ -270,7 +270,7 @@ a.current {
     border: 1px solid #C0C0C0;
     background-color: #C0C0C0;
     width: 680px;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -445,8 +445,6 @@ a.current {
 }
 
 
-
-
 .container {
     width: 300px;
     line-height: 1.5em;
@@ -564,4 +562,5 @@ hr {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
 
