@@ -12,62 +12,68 @@
 <body>
 
     <div class="header">
-        <p><span class="webtitle"> <img style="vertical-align:middle" src="../static/images/logo2.png" width="35px" height="35px"> Questioner </span> <span class="slogan">Speak Openly, Debate Honestly!</span></p>
+        <p><span class="webtitle"> <img style="vertical-align:middle" src="../static/images/logo2.png" width="35px" height="35px"> Questioner </span> <span class="slogan">Ask, Discuss, Learn and Grow</span></p>
     </div>
 
     <div class="navbar">
-        <ul><div class="navlink">
-                <li><a href="dashboard.html" class="current">Dashboard</a></li>
-                <li><a href="meetups.html">Meetups</a></li>
-                <li><a href="questions.html">Questions</a></li>
-            </div>
-            
-        </div></ul>
-        <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">Catherine</button>
-        </div>
+            <ul><div class="navlink">
+                    <li><a href="dashboard.html" class="current">Dashboard</a></li>
+                    <li><a href="meetups.html">Meetups</a></li>
+                    <li><a href="questions.html">Questions</a></li>
+                    <li><a href="#">Notifications</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                    <div class="dropdown">
+                        <li class="dropbtn"><a href="#">Catherine</a></li>
+                        <div class="dropdown-content">
+                            <a href="index.html">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+    </div>
+        
 
     <div class="tabs">
-        <button class="tablink visible" onclick="openTab('Meetups')" id="defaultOpen">Scheduled Meetups</button>
-        <button class="tablink visible" onclick="openTab('my-questions')">My Questions</button>
-        <button class="tablink visible" onclick="openTab('my-discussions')">My Discussions</button>
+        <button class="tablink" onclick="openTab('Meetups')" id="defaultOpen">Scheduled Meetups</button>
+        <button class="tablink" onclick="openTab('my-questions')">My Questions</button>
+        <button class="tablink" onclick="openTab('my-discussions')">My Discussions</button>
     </div>
 
-    <div id="Meetups" class="tabcontent visible">
+    <div id="Meetups" class="tabcontent">
         <div class="card">
             
             <img src="../static/images/github.png" width="250px" height="200px">
             
             <div class="card-content">
-                <h2>Meetup: <a href="#">Github for beginners</a></h2>
+                <h2>Meetup: <a href="github-questions.html">Github for beginners</a></h2>
                 <p>Date: 15th January, 2019</p>
                 <p>Location: KCB Sports Club</p>
-                <p>Topic: What is the difference between 'git pull' and 'git fetch?</p>
+                <p>Facilitator: Ms. Peris Maina</p>
             </div>
         </div>
 
         <div class="card">
-                <img src="../static/images/JSON.png" width="250px" height="200px">
+                <img src="../static/images/AI.jpeg" width="250px" height="200px">
 
 
             <div class="card-content">
-                <h2>Meetup: <a href="#">All about JSON</a></h2>
-                <p>Date: 20th January, 2019</p>
-                <p>Location: PAC</p>
-                <p>Topic: Can I use comments inside a JSON file? If so, how?</p>
+                <h2>Meetup: <a href="AI-questions.html">Artificial Intelligence</a></h2>
+                <p>Date: 21st January, 2019</p>
+                <p>Location: PAC University</p>
+                <p>Facilitator: Mr. Juma</p>
             </div>
         </div>
 
         <div class="card">
 
-            <img src="../static/images/github.png" width="250px" height="200px">
+            <img src="../static/images/machine-learning.jpg" width="250px" height="200px">
 
 
             <div class="card-content">
-                <h2>Meetup: <a href="#">Github for beginners</a></h2>
-                <p>Date: 23rd January, 2019</p>
-                <p>Location: KCB Sports Club</p>
-                <p>Topic: Can I force git pull to overwrite local files? If so, how?</p>
+                <h2>Meetup: <a href="machine-questions.html">Machine Learning</a></h2>
+                <p>Date: 25th January, 2019</p>
+                <p>Location: Andela</p>
+                <p>Facilitator: Mr. Omollo</p>
             </div>
         </div>
 
@@ -77,10 +83,10 @@
 
 
             <div class="card-content">
-                <h2>Meetup: <a href="#">Python for beginners</a></h2>
-                <p>Date: 30th January, 2019</p>
-                <p>Location: PAC</p>
-                <p>Topic: What should I do if I want to sort a dictionary by value?</p>
+                <h2>Meetup: <a href="python-questions.html">Python for beginners</a></h2>
+                <p>Date: 22nd January, 2019</p>
+                <p>Location: KCB Sports Club</p>
+                <p>Facilitaro: Ms. Muli</p>
             </div>
         </div>
 
@@ -100,7 +106,7 @@
                     </div>
                     
                     <div class="card-content">
-                        <h2>Meetup: <a href="#">Github for beginners</a></h2>
+                        <h2>Meetup: <a href="github-questions.html">Github for beginners</a></h2>
                         <p>Question: What is the difference between 'git pull' and 'git fetch?</p>
                     </div>
                 </div>
@@ -113,8 +119,8 @@
                     </div>
         
                     <div class="card-content">
-                        <h2>Meetup: <a href="#">All about JSON</a></h2>
-                        <p>Question: Can I use comments inside a JSON file? If so, how?</p>
+                        <h2>Meetup: <a href="AI-questions.html">Artificial Intelligence</a></h2>
+                        <p>Question: What is the difference between statistical AI and classical AI?</p>
                     </div>
                 </div>
         
@@ -126,7 +132,7 @@
                     </div>
         
                     <div class="card-content">
-                        <h2>Meetup: <a href="#">Github for beginners</a></h2>
+                        <h2>Meetup: <a href="github-questions.html">Github for beginners</a></h2>
                         <p>Question: Can I force git pull to overwrite local files? If so, how?</p>
                     </div>
                 </div>
@@ -139,7 +145,7 @@
                     </div>
         
                     <div class="card-content">
-                        <h2>Meetup: <a href="#">Python for beginners</a></h2>
+                        <h2>Meetup: <a href="python-questions.html">Python for beginners</a></h2>
                         <p>Question: What should I do if I want to sort a dictionary by value?</p>
                     </div>
                 </div>
