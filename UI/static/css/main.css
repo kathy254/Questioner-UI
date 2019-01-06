@@ -121,11 +121,12 @@ body {
 .my-form {
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
     width: 700px;
-    height: 350px;
     background-color: #FFFFFF;
     border-style: ridge;
     border-bottom-width: thin;
@@ -160,6 +161,7 @@ body {
     background-color: #000000;
     color: white;
     padding: 15px 20px;
+    margin-bottom: 10px;
     border: none;
     cursor: pointer;
     width: 100%;
@@ -182,6 +184,10 @@ body {
 
 .forgot {
     float: right;
+}
+
+.remember{
+    padding-top: 10px;
 }
 
 a:link {
