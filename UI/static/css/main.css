@@ -16,6 +16,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
 /* Slideshow container */
 /* Signup page */
 .slideshow {
@@ -780,3 +781,9 @@ a.view-profile {
     font-weight: bolder;
 }
 
+.row3 {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    overflow: scroll;
+    margin-left: 60px;
+}
