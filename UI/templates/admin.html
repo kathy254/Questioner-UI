@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" class="inner-pages">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Admin Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="HandheldFriendly" content="True">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/main.css" />
+</head>
+
+<body>
+
+    <div class="header">
+        <p><span class="webtitle"> <img style="vertical-align:middle" src="../static/images/logo2.png" width="35px" height="35px"> Questioner </span> <span class="slogan">Ask, Discuss, Learn and Grow</span></p>
+    </div>
+
+    <div class="navbar">
+        <ul><div class="navlink">
+                ><li><a href="admin.html" class="current">Admin</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="meetups.html">Meetups</a></li>
+                <li><a href="questions.html">Questions</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <div class="dropdown">
+                    <li class="dropbtn"><a href="#">Mod-Joe</a></li>
+                    <div class="dropdown-content">
+                        <a href="index.html">Logout</a>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+
+    <div class="admin-page">
+        <div class="left-side">
+            <p><b>Delete Meetup</b></p>
+            <div class="delete-meet">
+                <select name="Meetups">
+                    <option value="Github">Github for Beginners</option>
+                    <option value="AI">Artificial intelligence</option>
+                    <option value="machine-learning">Machine-Learning with Python</option>
+                    <option value="data-structures">Data structures and Algorithms</option>
+                    <option value="python">Python for beginners</option>
+                    <option value="databases">Relational databases</option>
+                </select>
+                <button type="submit" value="delete">Delete Meetups</button>
+            </div>
+
+            <div class="edit-meet">
+                <p><b>Edit Meetup</b></p>
+                <select name="Meetups">
+                    <option value="Github">Github for Beginners</option>
+                    <option value="AI">Artificial intelligence</option>
+                    <option value="machine-learning">Machine-Learning with Python</option>
+                    <option value="data-structures">Data structures and Algorithms</option>
+                    <option value="python">Python for beginners</option>
+                    <option value="databases">Relational databases</option>
+                </select>
+                <button class="edit-button" type="submit" value="edit">Edit Meetups</button>
+
+            </div>
+
+        </div>
+
+
+        <div class="create-meet">
+            <h2>Create New Meetup</h2>
+            <div class="meet-form">
+                <p>Meetup Name</p>
+                <input type="text" name="meetup-name" placeholder="Meetup name">
+
+                <p>Meetup Date</p>
+                <input type="text" name="meetup-date" placeholder="Meetup date">
+
+                <p>Meetup Venue</p>
+                <input type="text" name="meetup-venue" placeholder="Meetup venue">
+
+                <p>Meetup Facilitator</p>
+                <input type="text" name="meetup-facilitator" placeholder="Meetup facilitator">
+
+                <p>Meetup tags</p>
+                <input type="text" name="tags" placeholder="Please add up to five tags separated by commas"><br>
+
+                <button type="submit" class="button1" value="Upload an image">Upload an Image</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+            &copy; 2019, Questioner <br>
+            All rights reserved.
+    </div>
+</body>
+</html>
