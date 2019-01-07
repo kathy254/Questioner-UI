@@ -300,7 +300,8 @@ a.current {
 
 
 .tablink:hover {
-    background-color: #ddd;
+    background-color: #000080;
+    color: #FFFFFF;
   }
 
 
