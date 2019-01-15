@@ -421,7 +421,7 @@ a.current {
 .row {
     position: absolute;
     top: 150px;
-    left: 120px;
+    left: 160px;
     width: 33.333%;
     display: flex;
     justify-content: space-between;
@@ -431,13 +431,16 @@ a.current {
     position: absolute;
     top: 450px;
     margin-top: 30px;
-    left: 120px;
+    left: 160px;
     widows: 33.3333%;
     display: flex;
     justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
     padding-bottom: 30px;
     overflow: scroll;
 }
+
 
 .meetups-card {
     position: relative;
