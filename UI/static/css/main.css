@@ -419,29 +419,26 @@ a.current {
 /* meetups page */
 
 .row {
-    position: absolute;
-    top: 150px;
-    left: 120px;
-    width: 33.333%;
+    position: relative;
+    margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .row2 {
-    position: absolute;
-    top: 450px;
-    margin-top: 30px;
-    left: 120px;
-    widows: 33.3333%;
+    position: relative;
+    margin-top: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 30px;
     overflow: scroll;
 }
 
+
 .meetups-card {
     position: relative;
     display: inline-block;
+    align-content: center;
     margin: 25px;
     padding: 0;
     width: 300px;
